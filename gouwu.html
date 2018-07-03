@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>购买</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/goumai.css">
+	<script>
+    function add(){
+		var num=document.getElementById("num").value;
+		var num1= parseInt(num)+1;
+		document.getElementById("num").value=num1;
+
+		
+	}
+    
+	
+	
+	 function cut(){
+		
+		var num=document.getElementById("num").value;
+		
+		var num1= parseInt(num)-1;
+		
+		document.getElementById("num").value=num1;
+		if(num1<1){
+		document.getElementById("num").value="1";
+		
+		}
+		
+	}
+	
+	function chnum(){
+		
+	var num=document.getElementById("num").value;
+		var num1=parseInt(num);
+		var number1=parseInt(number);
+		if(num1<0||num1>number1){
+			document.getElementById("num").value="1";
+			
+		}else{
+			document.getElementById("num").value=num;
+			
+		}
+		
+	}
+    
+    </script>
+</head>
+
+<body>
+    <header>
+    	<span>发布需求</span>
+    </header>
+    <div class="mian">
+    	<div class="mian_1">
+    		<span style="color: gray;display: inline-block;line-height: 4rem;">您选择了<p style="color: orange;display: inline-block;">千树文创</p>为您服务</span>
+    	</div>
+    	<div class="mian_2">
+    		<div class="mian_2_1">
+    			<div class="mian_2_2">
+    				<span class="mian_2_2_1">您想做的</span><span class="mian_2_2_2">千树logo设计商标设计标志公司</span>
+    			</div>
+    			<div class="mian_2_2" style="border-bottom: 1px solid #EEE;">
+    				<span class="mian_2_2_1">您的预算</span><span class="mian_2_2_2">
+    					<p style="display: inline-block;text-align: left;">900</p><input type="button" onClick="cut()" value="-" class="cnt-btn" />
+			             <input type="text" onChange="chnum()" value="1" id="num" class="num-btn" />
+			            <input type="button" onClick="add()" value="+" id="add" class="cnt-btn" />
+    				</span>
+    			</div>
+    			<textarea class="mian_3" placeholder="填写详细需求，以便为您精准匹配专业人才"></textarea>
+
+    		</div>
+            <div class="pull"></div>
+            <div class="mian_4">
+               <div class="mian_4_1">
+            	<div class="mian_2_2">
+    				<span class="mian_2_2_1">手机号</span><textarea placeholder="请输入您的手机号码" class="mian_4_2"></textarea>
+    			</div>
+    			<div class="mian_2_2">
+    				<span class="mian_2_2_1">验证码</span><textarea placeholder="请输入您的验证码" class="mian_4_3"></textarea><a href="#" class="yanzhengma">获取验证码</a>
+    			</div>
+
+    		</div>
+    		<div class="pull"></div>
+    		<div class="mian_5">
+    			<div class="mian_5_1">
+    				<div class="mian_5_2">
+    					<span>商标注册查询</span>	
+    					<span style="color: gray;font-size: 1rem;
+    					display: block;">免费查询你的品牌能否注册商标</span>
+    				</div>
+    				<div class="mian_5_3">
+    					<span>免费查询公司名</span>	
+    					<span style="color: gray;font-size: 1rem;
+    					display: block;">人工查询公司名，30分钟后回复查询结果</span>	
+    				</div>
+    			</div>
+
+    		</div>
+    		<div class="pull"></div>
+    		<div class="mian_6">
+    			<div class="mian_6_1">
+    				<span style="color: gray;display: inline-block;font-size: 2rem;line-height: 4rem;">总价:   <p style="display: inline-block;color: orange;font-size: 2rem;">￥900<p></span>
+    			</div>
+    		</div>
+    		<div class="pull"></div>
+            </div>
+            <div class="mian_7">
+            	<a href="#">
+            		提交
+            	</a>
+            </div>
+ 
+    	</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+	*{
+	margin: 0;
+	padding: 0;
+    font-size:14px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+body{
+	padding: 0;
+	min-width: 300px;
+	max-width: 667px;
+	transition: 1.5s all;
+    -webkit-transition:1.5s all;
+}
+header{
+	width: 100%;
+	position:relative;
+    height: auto;
+}
+.head{
+	position: relative;
+	width: 100%;
+	height: 3rem;
+	background: red;
+}
+.head1{
+	position: relative;
+	width: 95%;
+	height: 85%;
+	background: yellow;
+	top: 10%;
+}
+.head span:nth-child(1){
+	font-size: 2rem;
+	color: #929292;
+	display: inline-block;
+
+}
+.head .name{
+	position: absolute;
+    display: inline-block;
+}

@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>登录</title>
+     <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+     <header>
+     	<div class="nav-top">
+     		<div class="nav-top1">
+     		     <a class="glyphicon glyphicon-menu-left" href="me.html"></a>
+     		     <span class="zhuce">注册</span>
+     		</div>
+     	</div>
+     </header>
+     <div class="mian">
+     	<div class="mian_1">
+     		<img src="img/logo.png">
+     	</div>
+     </div>
+     <div class="mian_login">
+     	<div class="mian_login1">
+     		<div class="mian_login_nav" id="mian_login_nav">
+     		      <ul>
+     			      <li class="select" id="select">
+     				      <a href="login.html" id="font">登录<span class="line" style="display:block;"></span></a>
+     			      </li>
+     			      <li>
+     				      <a href="register.html">注册<span class="line" style="display:none;"></span></a>
+     			      </li>
+     		      </ul>
+     		 </div>
+     		 <div class="mian_login_body" id="mian_login_body">
+     		 	<div class="mod" style="display: block;">
+     		 	  <ul>
+     		 	  	<li>
+     		 	  		<form action="control/login.jsp" method="post">
+     		 	  			<table >
+			                    <tr><th class="name">账号</th><td><input id="name"  style="height:30px" type="text" name="name"  placeholder="         请输入账号" /><span class="line1"></span></td></tr>
+			                    <tr><th class="pwd">密&nbsp;码</th><td><input style="height:30px"  id="pwd" type="password"  name="password" placeholder="         请输入密码" /><span class="line1"></span></td></tr>
+			                    <tr><td> </td><td><input class="button" onClick="login()" type="submit" value="登　录" /></td></tr>
+		                    </table>                    
+     		 	  		</form>
+     		 	  	</li>
+     		 	  	<li></li>
+     		 	  </ul>
+     		 	</div>
+     		 </div>
+     	</div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-size:14px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+body{
+	padding: 0;
+	min-width: 300px;
+	max-width: 667px;
+	transition: 1.5s all;
+    -webkit-transition:1.5s all;
+}
+header{
+	width: 100%;
+	position:relative;
+    height: auto;
+}
+.nav-top{
+	position: relative;
+	width: 100%;
+	height: 3rem;
+}
+.nav-top1{
+	position: relative;
+	width: 90%;
+	height: 2rem;
+	margin: 0 auto;
+    top: 8px;
+}
+.glyphicon-menu-left{
+	float: left;
+	font-size: 2rem;
+	color: #AEAEAE;
+}
+.zhuce{
+	float: right;
+	color: #AEAEAE;
+}
+.mian{
+	position: relative;
+	width: 100%;
+	height: 10rem;
+}
+.mian_1{
+	position: relative;
+	width: 80%;
+	height: 5rem;
+	margin: 0 auto;
+	top: 2rem;
+}
+.mian_1 img{
+	margin: 0 auto;
+	display: block;
+}
+.mian_login{
+	position: relative;
+	width: 100%;
+	height: 33rem;
+}
+.mian_login1{
+	position: relative;
+	width: 90%;
+	height: 28rem;
+	margin: 0 auto;
+	top: 3rem;
+}
+.mian_login_nav{
+	width: 40%;
+	height: 3rem;
+	margin: 0 auto;
+}
+.mian_login_nav a{
+	color: #929292;
+	font-size: 18px;
+}
+#font{
+	color: orange;
+}
+.mian_login_nav li:first-child{
+	float: left;
+}
+.mian_login_nav li:last-child{
+	float: right;
+}
+.mian_login_nav a:hover,.mian_login_nav a:link,.mian_login_nav a:visited{
+	text-decoration: none;
+
+}
+.line{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: orange;
+}
+.mian_login_body{
+	width: 80%;
+	height: 22rem;
+	margin: 0 auto;	
+}
+.name{
+	font-weight: lighter;
+	font-family:"微软雅黑";
+	font-size: 1rem;
+}
+.pwd{
+	font-weight: lighter;
+	font-family:"微软雅黑";
+	font-size: 1rem;
+}
+#name{
+	width: 20REM;
+	border: none;
+    margin-left: 1rem;
+}
+#pwd{
+	width: 20rem;
+	margin-left: 1rem;
+	border:none;
+}
+.line1{
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	background: #E5E5E5;
+}
+#name:hover,#name:link,#name:visited{
+	outline:none;
+}
+#pwd:hover,#pwd:link,#pwd:visited{
+	outline:none;
+}
+input::-webkit-input-placeholder{
+            color:#E5E5E5;
+        }
+        input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+            color:#E5E5E5;
+        }
+        input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+            color:#E5E5E5;
+        }
+        input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+            color:#E5E5E5;
+        }
+.button{
+	margin-top: 1rem;
+	width: 70%;
+	height: 3rem;
+	border: none;
+	background: #FF6900;
+	color: white;
+}
+.form{
+	width: 100%;
+}
+.button:hover,.button:link,.button:visited{
+	outline: none;
+}
